@@ -1,10 +1,13 @@
-
+import PageHeader from './components/PageHeader';
 import './App.css'
 
 function App() {
   return (
     <main>
-      <h1>CareerOps</h1>
+      <PageHeader 
+        title="Recruitment Intelligence" 
+        tagline="Application Tracking" 
+        />
 
       <p>
         Recruitment Intelligence & Application Tracking
